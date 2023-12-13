@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: rgb(229, 213, 243);
+}
+
+.App {
+  background-color: aliceblue;
+  width: 550px;
+  height: auto;
+  margin: 30px auto 0 auto;
+  
+  
+}
+
+.header {
+  background: linear-gradient(90deg, #6c079a 1.18%, #A626D3 100%);
+  height: auto;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  color: white;
+}
+
+.header > p {
+  margin-left: auto;
+  padding-right: 15px;
+}
+
+.logo {
+  width:50px;
+  height:auto;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.form{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 50px;
+}
+
+.form-section1 {
+  text-align: center;
+
+}
+
+.form-section1 > input {
+  margin: 20px;
+  
+}
+
+
+
+.form-section2 {
+  text-align: center;
+  
+}
+
+.form-section2 > button {
+  width: auto;
+}
+
+.image {
+  background-color: beige;
+}
