@@ -1,7 +1,10 @@
-export default function Image(){
+export default function Image({xin}){
+
+    
+
     return (
         <div className="image">
-            <h4>Image</h4>
+            <img src={ xin } alt="xinpusen" className="xin"/>
         </div>
     );
 }
