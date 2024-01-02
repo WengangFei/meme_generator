@@ -9,14 +9,9 @@ export default function Form({data}){
         let arr = data.data.memes;
         let index = Math.floor(Math.random()*(arr.length-0)+0);
         setUrl(arr[index].url)
-        console.log(index)
+      
     }
 
-
-    
-    
-    
-  
    
     return (
         <div>
@@ -28,9 +23,7 @@ export default function Form({data}){
             <div>
                 <Image url={url}/> 
             </div>
-           
         </div>
-        
     );
 }
 
