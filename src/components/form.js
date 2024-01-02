@@ -1,15 +1,23 @@
 import { useState } from "react";
+import Image from './displayImage';
+import show from '../images/family.jpeg';
 
 export default function Form({data}){
-
-    let arr = data.data.memes;
-    let show = arr.map((item)=><p>{item.name}</p>);
-    let [flag,setFlag] = useState(false)
-    function handClick(){
-        flag ? setFlag(false) : setFlag(true)
-        flag = true;
-    }
     
+    let [url,setUrl] = useState(show)
+    function handClick(){
+        let arr = data.data.memes;
+        let index = Math.floor(Math.random()*(arr.length-0)+0);
+        setUrl(arr[index].url)
+        console.log(index)
+    }
+
+
+    
+    
+    
+  
+   
     return (
         <div>
             <div className="form">   
@@ -18,8 +26,9 @@ export default function Form({data}){
                 <button className="form--button" onClick={ handClick }>Get a new meme image</button> 
             </div>
             <div>
-                { flag && show }
+                <Image url={url}/> 
             </div>
+           
         </div>
         
     );
