@@ -65,7 +65,7 @@ body {
 
 .xin {
   width: 450px;
-  margin: 0 50px 50px;
+  margin: 0 50px -30px;
   cursor: pointer;
   
 }
@@ -75,3 +75,6 @@ body {
   /* opacity: .5; */
 }
 
+.information {
+  margin: 50px;
+}

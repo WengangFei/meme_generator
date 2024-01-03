@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from './displayImage';
 import show from '../images/family.jpeg';
+import Infor from './information';
 
 export default function Form({data}){
     
@@ -11,6 +12,7 @@ export default function Form({data}){
         setUrl(arr[index].url)
       
     }
+
 
    
     return (
@@ -23,6 +25,10 @@ export default function Form({data}){
             <div>
                 <Image url={url}/> 
             </div>
+            <div className="information">
+                <Infor />
+            </div>
+       
         </div>
     );
 }
