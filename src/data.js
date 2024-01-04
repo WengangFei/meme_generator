@@ -8,27 +8,27 @@ let data = {
         "memes": [
             {
                 "id":"2341234",
-                "name":"Fei",
+                "topText":"Whole Family",
                 "url":img1,
                 "width":450,
                 "height":550,
-                "box_count":2
+                "bottomText":'Three kids'
             },
             {
                 "id":"3234552",
-                "name":"Gu",
+                "topText":"In Kitchen",
                 "url":img2,
                 "width":450,
                 "height":550,
-                "box_count":3
+                "bottomText":'Kids are drinking milk',
             },
             {
                 "id":"938432",
-                "name":"Tie",
+                "topText":"Back Yard Play",
                 "url":img3,
                 "width":450,
                 "height":550,
-                "box_count":5
+                "bottomText":'Drift in Backyard',
             }
 
         ]

@@ -10,13 +10,17 @@ export default function Information(){
     });
 
     let keys = Object.keys(infor);
-    let show = keys.map((item)=><h4>{ item } : { infor[item]},</h4>);
+    let show = keys.map((item)=><h4 key={item}>{ item } : { infor[item]},</h4>);
 
     
     return (
         <>
             { show }
-            <button onClick={()=>setInfor({...infor,Writer:'Fei'})}>Add More Infor</button>
+            <button onClick={()=>setInfor(prev=>({
+                    ...prev,
+                    Creator: 'Jude',
+                })
+            )}>Change the Creator</button>
         </>
     );
-}
+} 
