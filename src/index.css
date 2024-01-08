@@ -70,6 +70,21 @@ body {
   
 }
 
+.image {
+  position: relative;
+}
+
+.image-text {
+  position:absolute;
+  left: 30%;
+  bottom: 30%;
+  font-family: 'Bungee Spice', sans-serif;
+  font-size: x-large;
+  width: 250px;
+  height: 100px;
+
+}
+
 .image:hover {
   filter: brightness(0.5);
   /* opacity: .5; */
@@ -78,3 +93,12 @@ body {
 .information {
   margin: 50px;
 }
+
+.signUp {
+  background-color: #ab4ed7;
+  display: grid;
+  place-items: center;
+  margin: 0 100px 100px 100px;
+  border-radius: 10px;
+  color: white;
+} 

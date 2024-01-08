@@ -1,7 +1,8 @@
-import {useState} from 'react';
+import { useState } from "react";
 
 export default function Information(){
 
+ 
     let [infor,setInfor] = useState({
         Name : 'The Simpsons',
         Creator : 'Mark',

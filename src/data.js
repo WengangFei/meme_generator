@@ -2,8 +2,9 @@ import img1 from './images/family.jpeg';
 import img2 from './images/family2.jpeg';
 import img3 from './images/xin.jpeg';
 
+//mimic API data
 let data = {
-    "success" : true,
+    "success" : 'local data',
     "data" : {
         "memes": [
             {
